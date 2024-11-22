@@ -1,0 +1,19 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.all-cases {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 550px;
+}
+@media screen and (min-width: 768px) {
+  .all-cases {
+    max-width: 1140px;
+  }
+}
